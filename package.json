@@ -1,0 +1,19 @@
+{
+  "name": "trek-on-dreams",
+  "version": "1.0.0",
+  "description": "Treks Scheduling Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOMALDEWNANI/Trek-On-Dreams.git"
+  },
+  "author": "Adarsh Sharma & Komal Dewnani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KOMALDEWNANI/Trek-On-Dreams/issues"
+  },
+  "homepage": "https://github.com/KOMALDEWNANI/Trek-On-Dreams#readme"
+}
