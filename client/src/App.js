@@ -1,7 +1,7 @@
 import './App.css';
-import Catalogue from './Catalogue';
-import Footer from './Footer';
-import Navbar from './Navbar';
+import Catalogue from './Components/Catalogue';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
