@@ -1,5 +1,5 @@
 import React from "react";
-
+import TypeWriter from "react-typewriter";
 
 function Navbar() {
   return (
@@ -7,7 +7,7 @@ function Navbar() {
         <ul className="flex ">
             <li className="cursor-pointer  px-2 py-2 font-bold text-xl 
             bg-slate-300 font-serif rounded-full">
-                Trek on Dreams
+                <TypeWriter typing={0.5}>Trek on Dreams</TypeWriter>
             </li>
 
           <li className="ml-auto mr-14 cursor-pointer  px-2 py-2 font-bold text-lg hover:bg-slate-300 hover:rounded-2xl">
