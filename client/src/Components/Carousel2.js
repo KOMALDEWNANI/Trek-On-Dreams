@@ -1,4 +1,3 @@
-import { height, margin, width } from '@mui/system'
 import React from 'react'
 import pic from "../Carousel2.gif"
 
