@@ -29,6 +29,10 @@ const UserSchema = new mongoose.Schema({
     purchases: {
         type: Array,
         default: []
+    },
+    maxLimit: {
+        type: Number,
+        required: true
     }
 }, {timestamps: true})
 

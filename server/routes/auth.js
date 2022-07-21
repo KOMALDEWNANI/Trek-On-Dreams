@@ -61,6 +61,7 @@ body("password").isLength({ min: 8 }), async (req, res) => {
       }
     }
   } catch(err) {
+    console.log(err)
     res.status(500).json({error : err});
   }
 });
