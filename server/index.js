@@ -29,8 +29,8 @@ app.use('/api/trek', trekRoute)
 
 
 
-const PORT = 8800
+const port = process.env.PORT || 8800
 
-app.listen(PORT, () => {
+app.listen(port, () => {
     console.log("Server is up and running")
 })
