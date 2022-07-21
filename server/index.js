@@ -1,3 +1,4 @@
+// importing
 const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require('dotenv')
@@ -10,7 +11,11 @@ const cors = require('cors')
 
 dotenv.config()
 
+// app config
 const app = express()
+const port = process.env.PORT || 8800
+
+// db config
 mongoose.connect(process.env.MONGO_URL, () => {
     console.log("Connected to Mongo")
 });
@@ -29,8 +34,8 @@ app.use('/api/trek', trekRoute)
 
 
 
-const port = process.env.PORT || 8800
 
+// listen
 app.listen(port, () => {
     console.log("Server is up and running")
 })

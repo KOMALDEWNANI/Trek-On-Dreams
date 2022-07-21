@@ -4,9 +4,9 @@
   "description": "Travel Planning website's backend",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
-  "author": "KOMAL DEWNANI & ADARSH SHARMA",
+  "author": "KOMAL DEWNANI & YASH SHARMA & ADARSH SHARMA",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
