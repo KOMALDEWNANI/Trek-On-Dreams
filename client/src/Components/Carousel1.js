@@ -2,7 +2,7 @@
 import React from 'react'
 import pic from "../slider.gif"
 
-function Carousel() {
+function Carousel1() {
   return (
     <div className="ml-96 my-10 w-96 border-double border-2 rounded-lg border-black ">
         <img src={pic}
@@ -11,4 +11,4 @@ function Carousel() {
   )
 }
 
-export default Carousel
+export default Carousel1

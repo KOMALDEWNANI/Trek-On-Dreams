@@ -8,7 +8,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 function Catalogue(props) {
   return (
-    <div className=" px-8 py-8">
+    <div className=" px-8 py-10 mt-5 ">
       <Card  sx={{ maxWidth: 345 }}>
       <CardActionArea >
         <CardMedia
@@ -27,7 +27,7 @@ function Catalogue(props) {
       </CardActionArea>
       <CardActions className = "bg-slate-300">
         <Button variant="contained" size="medium" color="success">
-          Pay
+          Explore
         </Button>
       </CardActions>
     </Card>
