@@ -51,6 +51,10 @@ const TrekSchema = new mongoose.Schema({
     registeredUsers: {
         type: [mongoose.Schema.ObjectId],
         default: []
+    },
+    maxLimit: {
+        type: Number,
+        required: true
     }
 
     
