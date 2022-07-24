@@ -4,8 +4,12 @@ import Catalogue from "./Components/Catalogue";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Carousel2 from "./Components/Carousel2";
+
 import Booking from "./Components/Booking";
 // import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Signup from "./Components/Signup";
+import Login from "./Components/Login";
+
 
 function App() {
   return (
@@ -80,6 +84,8 @@ function App() {
         />
       </div>
       <Footer />
+      <Signup />
+      <Login />
     </div>
     
   );

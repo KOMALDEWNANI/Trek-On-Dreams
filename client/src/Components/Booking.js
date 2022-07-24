@@ -11,7 +11,7 @@ function Booking() {
   Booking Information
 </h1>
     <Carousel2 />
-    <h1 style={{marginLeft: 40, marginTop:50}} class="text-5xl font-bold m-0 text-xl">Ohio</h1>
+    <h1 style={{marginLeft: 40, marginTop:50}} class="text-5xl font-bold m-0 ">Ohio</h1>
     <h2 style={{marginLeft: 40, marginTop:2}} class="font-bold m-0 ">Duration:</h2>
     <p style={{marginLeft: 40, marginTop:2}} class="font-bold m-0 " >Age Group:</p>
     <hr
