@@ -1,12 +1,15 @@
-import "./App.css";
+  import "./App.css";
 import Carousel1 from "./Components/Carousel1";
 import Catalogue from "./Components/Catalogue";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Carousel2 from "./Components/Carousel2";
+import Booking from "./Components/Booking";
+// import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
+   
     <div className="app bg-slate-200">
       <p className="text-red-700 text-3xl text-center bg-amber-200">
         Trek On Dreams in PROGRESS...
@@ -78,7 +81,18 @@ function App() {
       </div>
       <Footer />
     </div>
+    
   );
 }
 
 export default App;
+
+
+
+// <Router> 
+// <Routes>
+//       <Route path="/">
+//       <Booking />
+//       </Route>
+//       </Routes>
+// </Router>

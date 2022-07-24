@@ -26,7 +26,7 @@ function Catalogue(props) {
         </CardContent>
       </CardActionArea>
       <CardActions className = "bg-slate-300">
-        <Button variant="contained" size="medium" color="success">
+        <Button variant="contained" size="medium" color="success" >
           Explore
         </Button>
       </CardActions>
