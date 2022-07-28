@@ -86,6 +86,7 @@ function App() {
       <Footer />
       <Signup />
       <Login />
+      <Booking />
     </div>
     
   );
